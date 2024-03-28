@@ -1,4 +1,4 @@
-/*
+    /*
 COLORS
 
 Primary: #eb2f64
@@ -213,28 +213,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; }
-  .user-nav__user {
-    position: relative; }
-    .user-nav__user--dropdown {
-      display: none;
-      position: absolute;
-      top: 100%;
-      right: 0;
-      background-color: #f1f1f1;
-      min-width: 16rem;
-      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-      z-index: 1; }
-      .user-nav__user--dropdown a {
-        color: black;
-        padding: 1.2rem 1.6rem;
-        text-decoration: none;
-        display: block; }
-        .user-nav__user--dropdown a:hover {
-          background-color: #ddd; }
-    .user-nav__user:hover .user-nav__user--dropdown {
-      display: block; }
-    .user-nav__user:hover .user-nav__user-name {
-      color: gray; }
   .user-nav__user-photo {
     height: 3.75rem;
     border-radius: 50%;
